@@ -1,0 +1,99 @@
+/* CSS Variables for Code Analysis Suite */
+
+:root {
+    /* Colors */
+    --primary-color: #4a6fa5;
+    --primary-dark: #3d5a80;
+    --primary-light: #98c1d9;
+    --secondary-color: #ee6c4d;
+    --secondary-dark: #e35d3e;
+    --secondary-light: #f38e7a;
+    --dark-color: #293241;
+    --light-color: #e0fbfc;
+    --gray-color: #6c757d;
+    --light-gray: #dee2e6;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    
+    /* Severity Colors */
+    --critical-color: #dc3545;
+    --high-color: #fd7e14;
+    --medium-color: #ffc107;
+    --low-color: #6c757d;
+    --info-color: #17a2b8;
+    
+    /* Tool Colors */
+    --semgrep-color: #4a6fa5;
+    --snyk-color: #6f42c1;
+    --clangtidy-color: #28a745;
+    
+    /* Status Colors */
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    
+    /* Spacing */
+    --spacing-xxs: 0.125rem;
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-xxl: 3rem;
+    
+    /* Font sizes */
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.25rem;
+    --font-size-xl: 1.5rem;
+    --font-size-xxl: 2rem;
+    --font-size-xxxl: 2.5rem;
+    
+    /* Font weights */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    /* Line heights */
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.6;
+    --line-height-loose: 2;
+    
+    /* Border radius */
+    --border-radius-xs: 0.125rem;
+    --border-radius-sm: 0.25rem;
+    --border-radius-md: 0.5rem;
+    --border-radius-lg: 1rem;
+    --border-radius-xl: 2rem;
+    --border-radius-circle: 50%;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+    --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    --shadow-xl: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    
+    /* Transitions */
+    --transition-fast: 0.2s;
+    --transition-normal: 0.3s;
+    --transition-slow: 0.5s;
+    
+    /* Z-indices */
+    --z-index-dropdown: 1000;
+    --z-index-sticky: 1020;
+    --z-index-fixed: 1030;
+    --z-index-modal-backdrop: 1040;
+    --z-index-modal: 1050;
+    --z-index-popover: 1060;
+    --z-index-tooltip: 1070;
+    
+    /* Container sizes */
+    --container-sm: 540px;
+    --container-md: 720px;
+    --container-lg: 960px;
+    --container-xl: 1140px;
+  }
